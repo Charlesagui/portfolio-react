@@ -9,7 +9,7 @@ const assets = [
 const AssetList = () => {
   return (
     <div className="w-full p-4">
-      <h2 className="text-xl font-bold mb-4">Mis Activos</h2>
+      <h2 className="text-xl font-bold mb-4">Mis Activos2</h2>
       <ul>
         {assets.map((asset, index) => (
           <li key={index} className="mb-2">
